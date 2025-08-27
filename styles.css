@@ -9,6 +9,24 @@
     background:linear-gradient(180deg,#061021 0%,#0A1628 60%,#0C1A30 100%);
     color:var(--ink); line-height:1.6;
   }
+
+/* Normal link */
+a {
+  color: #1E90FF; /* brighter blue */
+  text-decoration: none;
+}
+
+/* Visited link */
+a:visited {
+  color: #BA55D3; /* brighter purple */
+}
+
+/* Hover effect */
+a:hover {
+  color: #2196F3; /* slightly lighter blue for hover */
+  text-decoration: underline;
+}
+
   .wrap{width:min(1120px,92%);margin-inline:auto}
   
   .site-header{position:sticky;top:0;z-index:50;background:rgba(6,16,33,.7);backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
