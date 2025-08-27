@@ -110,6 +110,10 @@ a:hover {
   .site-footer .wrap{display:flex;align-items:center;justify-content:space-between}
   .to-top{color:var(--brand-3);text-decoration:none;border:1px solid rgba(255,255,255,.18);padding:6px 10px;border-radius:999px}
   
+  #printBtn {
+    color: darkblue;
+  }
+
   @media (max-width: 980px){
     .grid-2{grid-template-columns:1fr}
     .hero-grid{grid-template-columns:1fr}
