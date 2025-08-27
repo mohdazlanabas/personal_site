@@ -10,6 +10,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
+<!-- Preload the LCP image (use your best-fit size & modern format) -->
+<link rel="preload"
+      as="image"
+      href="assets/photo-450.webp"
+      imagesrcset="
+        assets/photo-300.webp 300w,
+        assets/photo-450.webp 450w,
+        assets/photo-800.webp 800w"
+      imagesizes="(max-width: 600px) 300px, 435px"
+      type="image/webp">
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="assets/favicon.png" />
