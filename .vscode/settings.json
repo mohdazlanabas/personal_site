@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 10,
+    "editor.cursorStyle": "block",
+    "geminicodeassist.inlineSuggestions.nextEditPredictions": false,
+    "geminicodeassist.codeGenerationPaneViewEnabled": true
+}
